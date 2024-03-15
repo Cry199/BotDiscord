@@ -64,7 +64,7 @@ while True:
     resultado_v = cv2.matchTemplate(screenshot_gray, imagem_v, cv2.TM_CCOEFF_NORMED)
     _, max_val_v, _, max_loc_v = cv2.minMaxLoc(resultado_v)
 
-    # Use o método matchTemplate para encontrar a imagem_z na tela
+    # Use o método matchTemplate para encontrar a imagem_z na tela a
     resultado_z = cv2.matchTemplate(screenshot_gray, imagem_z, cv2.TM_CCOEFF_NORMED)
     _, max_val_z, _, max_loc_z = cv2.minMaxLoc(resultado_z)
 
