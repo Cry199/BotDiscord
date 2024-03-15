@@ -10,7 +10,7 @@ imagem_w = cv2.imread('won.png', 0)
 imagem_z = cv2.imread('inicio.png', 0)
 imagem_v = cv2.imread('exit.png', 0)
 
-# Variáveis para controlar se a imagem_v e imagem_z foram encontradas
+# Variáveis pra controlar se a imagem_v e imagem_z foram encontradas
 imagem_v_encontrada = False
 imagem_z_encontrada = True
 
